@@ -9,7 +9,7 @@ import ssl
 import re
 
 context = ssl._create_unverified_context()
-serviceurl = 'https://10.50.0.240/mgmt/tm/security/firewall/address-list'
+serviceurl = 'https://<ip address of F5 bigip device>/mgmt/tm/security/firewall/address-list'
 
 #from requests.packages.urllib3.exceptions import iInsecureRequestWarning
 
